@@ -41,11 +41,6 @@ public class GitAuthorsMojo extends AbstractMojo {
 
     public void execute() {
         try {
-
-            System.out.println(sort);
-            System.out.println(format);
-            System.out.println(joiner);
-
             Repository repo = new FileRepositoryBuilder().findGitDir().build();
 
             Map<PersonIdent, List<RevCommit>> authors = StreamSupport.stream(new Git(repo).log().call().spliterator(), false)
