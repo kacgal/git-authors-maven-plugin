@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/kacgal/maven-git-authors-plugin.svg)](https://jitpack.io/#kacgal/maven-git-authors-plugin)
+[![](https://jitpack.io/v/kacgal/git-authors-maven-plugin.svg)](https://jitpack.io/#kacgal/git-authors-maven-plugin)
 
 ##### Usage
 
